@@ -33,20 +33,11 @@ document.getElementById('btn_9').addEventListener('click', function () {
 document.getElementById('btn_0').addEventListener('click', function () {
     inputWindow.value += '0';
 })
-/*
+
 document.getElementById('btn_u_def').addEventListener('click', function () {
-    if (inputWindow.value > 0) {
-        inputWindow.value *= -1
-    } 
-    inputWindow.value += '0';
-    break;
-    if (inputWindow.value < 0) {
-        inputWindow.value *= -1
-    }
-    inputWindow.value += '0';
-    break;
-})
-*/
+    inputWindow.value *= '-1';
+    })
+
 document.getElementById('btn_sum').addEventListener('click', function () {
     lastOperand = parseInt(inputWindow.value);
     operation = 'sum';
