@@ -1,0 +1,12 @@
+.card-header p{
+    font-size: 2vw;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: blue;
+}
+.card-body{
+    background: rgb(230, 230, 230);
+}
+#surnameOutput, #firstNameOutput, #lastNameOutput, #genderOutput, #birthYearOutput{
+    color: rgb(7, 5, 131);
+}
